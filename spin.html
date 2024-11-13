@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The web site of macool</title>
+    <style>
+    
+     body {
+         background-color: #483d8b;
+         }
+    div {
+
+  background-color: transparent;
+}
+.content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.rotate {
+  
+  animation-duration: 3s;
+  animation-name: rotate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+  from {
+  transform-origin: center;
+  transform: rotate(0deg); /* Equal to rotateZ(45deg) */
+  background-color: transparent;
+  }  
+   to {
+    transform-origin: center;
+    transform: rotate(360deg); /* Equal to rotateZ(45deg) */
+    background-color: transparent;
+  
+    }
+}
+
+ 
+ 
+    </style>
+  </head>
+  <body>
+  <div class=content>
+ <img src=/img/Panda.png width= 200 class = rotate >
+ </div>
+  </body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MaCool's Website</title>
+  <link rel="icon" href="https://macool.neocities.org/Panda.ico">
+  <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&amp;family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+  <style>
+    h1 {
+      font-family: 'Bungee Shade', sans-serif;
+      font-size: 90px;
+      text-align: center;
+      color: #D5E1D8;
+  
+    }
+    
+    h3 {
+      font-family: 'Arial', sans-serif;res
+      text-align: center;
+      color: #D5E1D8;
+    }
+  
+      }
+    body {
+      background-color: #483d8b !important;
+      background: #483d8b;
+    }
+    a {
+      color: #d8d3f8; 
+      font-size: 20px;
+    }
+    
+    .content {
+      margin: 500px;
+      }
+    
+    .center {
+      text-align: center;
+      display: block;
+      background-color: #483d8b;
+    }
+    div {
+      width: 80px;
+      height: 80px;
+      background-color: #483d8b;
+    }
+    .rotate {
+      animation-duration: 3s;
+      animation-name: rotate;
+      animation-iteration-count: infinite;
+    }
+    @keyframes rotate {
+      0% {
+        transform-origin: center;
+        transform: rotate(-15deg);
+      }
+      50% {
+        transform-origin: center;
+        transform: rotate(10deg);
+      }
+      100% {
+        transform-origin: center;
+        transform: rotate(-15deg);
+      }
+    }
+     .corner-image {
+    position: fixed; /* This makes the image fixed with respect to the browser window */
+    bottom: 10px; /* Adjust this value to change the distance from the bottom */
+    right: 10px; /* Adjust this value to change the distance from the right */
+    z-index: 999; /* Ensure the image stays on top of other content */
+  
+  }
+  
+a {
+  background-color: #483d8b;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover {
+  background-color: #1f1a3d;
+  text-decoration: underline;
+  
+  .cat {
+  background-color: #3c3273;
+  padding: 0px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inherit;
+    
+    }
+
+.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.search {
+  text-align: right;
+  
+  }
+.chat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust this value to fit your layout */
+  }
+
+  </style>
+<script>
+  if (window.matchMedia("(max-width: 768px)").matches) {
+    window.location.href = "mobile.html";
+  }
+</script>
+
+  
+</head>
+
+<body style="background-color: #483d8b;">
+ <a href='/feed/feed.xml' class="sticky"><img src="/feed/rss.png" width="20"></a>
+ 
+
+<h1 style="font-size:7vw;">Welcome</h1>
+
+<center>
+  <img src="/img/Panda.png" width="200" class="rotate">
+</center>
+<h3 class="center" color="white">- art -</h3>
+<a href="/art" class="center">Art</a>
+<a href="https://macool.neocities.org/ASCIIArt" class="center">Ascii Art</a>
+<a href="/BeepBox" class="center">Beepbox Songs</a>
+<h3 class="center" color="white">- things -</h3>
+<a href="https://macool.neocities.org/Sheepadoodles" class="center">Learn About Sheepadoodles!</a> 
+<a href="/spin" class="center">Spin</a>
+<h3 class="center" class="center">- me -</h3>
+<a href="https://www.youtube.com/@MC.mp4/featured" class="center">My Youtube Channel</a> <br>
+<a href="https://replit.com/@macool2010" class="center">My Replit</a> <br>
+<a href="/feed/article.html" class="center">Updates</a><br>
+<a href="/about" class="center">About</a>
+<h3 class="center" color="white">- friends -</h3>
+<a href="https://funtsm.neocities.org/" class="center">FunTSM's Website</a>
+<a href="https://netherboss.neocities.org/" class="center">NetherBoss's Website</a>
+<br>
+<a href="/links" class="center">Other Cool Links</a>
+
+
+
+
+
+
+<!--  commented out links -->
+<!--
+<a href="https://macool.neocities.org/Learn" class="center">Learn Basic Html</a>
+<a href="https://macool.neocities.org/Clarinets" class="center"></a>
+-->
+<a href="https://neocities.org" target="_blank"><img src="/img/neocities.png" class="corner-image" width="150"></a>
+</body>
+</html>

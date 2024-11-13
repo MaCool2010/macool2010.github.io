@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
   <title>MaCool's Website</title>
   <link rel="icon" href="https://macool.neocities.org/Panda.ico">
   <link href="/style.css" rel="stylesheet" type="text/css" media="all">
@@ -113,7 +114,7 @@ background-color: #483d8b;
   display: inline-block;
   font-size: 19px;
 }
-a:not(.imgicon) {
+a:not(#cat):hover {
   background-color: #1f1a3d;
   text-decoration: underline;
 }
@@ -137,84 +138,33 @@ a:not(.imgicon) {
     background-color: #1f1a3d;
     text-decoration: underline;
     }
+    
+    .clicktoscroll {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 10px;
+      
+      }
   </style>
 <script>
   if ( window.matchMedia("(max-width: 768px)").matches) {
     w indow.location.href = "mobile.html";
   }
-  
-
 </script>
 
   
 </head>
 
 <body style="background-color: #483d8b;">
- <a href='/feed/feed.xml' class="sticky"><img src="/feed/rss.png" width="20"></a>
- 
-<!--<marquee scrollamount="20" class="fade">New Blog post: Emulators on iOS! - 17 May, 2024</marquee> -->
-
-<h1 style="font-size:7vw;">Welcome</h1>
-
-<center>
-<img src="/img/Panda.png" width="200" class="rotate">
-
-</center>
-
-
-<span class="center">
-<h3 color="white">- art -</h3>
-<a href="/art" class=btn-hover>Art</a> <a href="https://macool.neocities.org/ASCIIArt" class=btn-hover>Ascii Art</a> <a href="/BeepBox" class=btn-hover>Beepbox Songs</a>
-</span>
-
-<span class="center">
-<h3>- things -</h3>
-<a href="/spin" class=btn-hover>Spin</a> <a href="/feed/article.html" class=btn-hover>Blog</a><a href="https://macool.neocities.org/api" class=btn-hover id="myLink">the answer to life the universe and everything</a> <a href="https://macool.neocities.org/jaypaw" class=btn-hover>Honnor Jaypaw</a> <a href="https://macool.neocities.org/rec">Recommendations</a>
-
-
-<!--<a href="/spin">Spin</a> <a href="https://macool.neocities.org/api">  my api key!</a>
-<!--<a href="/learn/learn">Learn (unfinished)</a> -->
-
-<a href="https://macool.neocities.org/Sheepadoodles" class=btn-hover>Learn About Sheepadoodles!</a> 
-<!--<a href="/learn/learn" >Learn (unfinished)</a> -->
-</span>
-
-
-
-
-
-
-<h3 color="white">- about me -</h3>
 <div id="about" class="center">
-<p>This is my website. I use this to learn about and experiment with HTML and CSS. I enjoy coding with Python and making things. I'm also learning Ruby and C# and maybe even CoffeeScript or Lua.
+<p class="clicktoscroll">click to scroll</p>
+<p>This is my website. I use this to learn about and experiment with HTML and CSS. I enjoy coding with Python and making things. I'm also learning Ruby and maybe even CoffeeScript or Lua.
      </p>
     <p>I like to photoshop pictures and make art. I enjoy simplifying photos into vector graphics. Here are some of the things I've made:</p>
     <img src="/img/cat-min.jpg" alt="giant cat attacks plane" width="175"/> 
     <img src="/img/lamp.jpg" alt="vector drawing of a lamp" width="175"/> 
-    <img src="/img/rowlet.png" alt="vector drawing of the best pokemon" width="145"/> 
+    <img src="/img/rowlet.png" alt="vector drawing of Rowlet" width="145"/> 
     
-    <p>I have also made art for FunTSM's <a href="https://funtsm.neocities.org" style="padding: 0px 0px; font-size: 17px;">YouTube channel</a>.<br> I love to play rhythm games. Two of my favorites are, Clone Hero and Taiko no Tatsujin.<br> Louie Zong, Lemon Demon, and Tally Hall are some of my favorite Artists. And Rowlet is the best pokemon.</p>
+    <p>I have also made art for FunTSM's <a href="https://funtsm.neocities.org" style="padding: 0px 0px; font-size: 17px;">YouTube channel</a>.<br> I love to play rhythm games. Two of my favorites are, Clone Hero and Taiko no Tatsujin.<br> Louie Zong, Lemon Demon, and Tally Hall are some of my favorite Artists.</p>
 </div>
-<span class="center">
-<h3 color="white">- stats -</h3>
-<p>Current favorite band - Vulfpeck</p>
-<p></p>
-
-</span>
-<span class="center">
-<h3 color="white">- socials -</h3>
-<a href="https://www.youtube.com/@MC.mp4/featured" class=btn-hover><img src="/img/youtube_social_icon_dark.png" width="25" class=imgicon></a>
- <a href="https://github.com/MaCool2010" class=btn-hover><img src="/img/github-mark.png" width="25" class=imgicon></a><a href="https://replit.com/@macool2010" class=btn-hover><img src="/img/replit-logo.png" width="25" class=imgicon></a> 
-
-</span>
-<span class="center">
-<h3 color="white">- friends -</h3>
-<a href="https://funtsm.neocities.org/" class=btn-hover>FunTSM</a> <a href="https://netherboss.neocities.org/" class=btn-hover>NetherBoss</a>
-</span><br>
-<span class="center">
-
-
-<a href="https://neocities.org" target="_blank" id="cat"><img src="/img/neocities.png" class="corner-image" width="150"></a>
-
 </body>
 </html>

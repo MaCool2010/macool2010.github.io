@@ -1,31 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Shade&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: MediumPurple;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: purple;
-}
-.sticky {
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-}
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #301934;
-}
-/*MediumPurple*/
-body {
- background-color: #483d8b;
-}
 a {
  font-family: Roboto;
  font-size: 20;
@@ -37,11 +11,12 @@ a {
      max-width: 500px;
   margin: auto;
     }
-  .center {
-   text-align: center;
-   display:block;
-   
-
+.center {
+  text-align: center;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   }
   
     
@@ -52,5 +27,37 @@ h1 {
  color: Indigo; 
  
 }
-
+footer {
+  text-align: center;   
+  padding: 15px;
+}
 img { text-align: center;} 
+
+.breadcrumb {
+  padding: 0 .5rem;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.breadcrumb ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.breadcrumb li:not(:last-child)::after {
+  display: inline-block;
+  margin: 0 .25rem;
+  content: ">";
+}
+
+
+figcaption {
+  text-align: center;  
+  font-family: Roboto;
+  
+}
+ 

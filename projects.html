@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - MaCool</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Source+Code+Pro:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <style>
+body {
+  background-color: #858585;
+}
+    
+h1 {
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal; 
+  color: #e6e5e3;
+  font-size: 75px;
+}
+
+.breadcrumb {
+  padding: 0 .5rem;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.breadcrumb ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.breadcrumb li:not(:last-child)::after {
+  display: inline-block;
+  margin: 0 .25rem;
+  content: ">";
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+footer {
+  text-align: center;   
+  padding: 15px;
+}
+     
+    </style>
+  </head>
+  <body>
+<nav aria-label="Breadcrumb" class="breadcrumb">
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li>Projects</li>
+  </ul>
+</nav>
+    <h1>Projects</h1>
+<div class="content">
+    <h2 class="center">Python</h2>
+    <h3>Meme Maker</h3>
+    <p>Meme Maker made with the Pillow library. I learned about image manipulation</p>
+    <a href="https://replit.com/@macool2010/meme-maker?v=1#main.py">Meme-Maker - Replit</a>
+    
+    <h3>Simple RSS reader</h3>
+    <p>Uses feedparser and requests for RSS, and rich for text color. The first working attempt.</p>
+    <a href="https://replit.com/@macool2010/RSS-Reader?v=1#main.py">RSS-Reader - Replit</a>
+    
+    <h3>DnD Database</h3>
+    <p>A Dungeons and Dragons Json database made by <a href="https://funtsm.neocities.org">FunTSM</a> This is the interface for the Json. Working with Json files was not as hard as I thought it would be.</p>
+    <a href="https://replit.com/@macool2010/DandD-Database-fork?v=1#main.py">DnD Database - Replit</a>
+    
+        <h3>Text Encryptor</h3>
+    <p>A text Encryptor made with Fernet. Actually really simple.</p>
+    <a href="https://replit.com/@macool2010/Encryption?v=1">Encryption - Replit</a>
+    
+    
+    
+</div>
+<footer>
+  <a href="/">Home</a> <a href="/about">About</a> <a href="/map">Site Map</a>
+</footer>
+  </body>
+</html>

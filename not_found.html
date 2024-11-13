@@ -3,25 +3,52 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Source+Code+Pro:wght@300;500&display=swap" rel="stylesheet">
     <title>Page Not Found</title>
 
   </head>
   <body>
   <style>
+a {
+ font-family: Bungee;
+ font-size: 50px;
+ text-align: center;
+ color: black; 
+
+}
 body {
- background-color: MediumPurple;
+ background-color: #e6e5e3;
 }
-h1 {
- font-family: Bungee Shade;
- font-size: 20;
-  text-align: center;
-  color: 
-  }
-p {
-    font-family: roboto;
-    text-align: center;
+.center {
+  margin: auto;
+  width: 50%;
+  border: 10px e6e5e3;
+  padding: 10px;
 }
+    .rotate {
+      animation-duration: 3s;
+      animation-name: rotate;
+      animation-iteration-count: infinite;
+    }
+    @keyframes rotate {
+      0% {
+        transform-origin: center;
+        transform: rotate(-15deg);
+      }
+      50% {
+        transform-origin: center;
+        transform: rotate(10deg);
+      }
+      100% {
+        transform-origin: center;
+        transform: rotate(-10deg);
+      }
+    }
  </style>
-  <a href="/">Home</a>
+ <div class="center">
+  <center><a href="/">Page Not Found :(</a></center>
+  <img src="/img/error_panda.jpg" width="500" class="rotate">
+  </div>
+  
   </body>
 </html>
